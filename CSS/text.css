@@ -1,0 +1,57 @@
+.SuaVidaCom {
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: light;
+}
+.e {
+    font-size: 40px;
+    font-family:serif;
+    font-weight: light;
+}
+
+.Luxo {
+    font-size: 70px;
+    font-family: serif;
+    font-weight: light;
+}
+
+.e {
+    font-size: 40px;
+    font-family: inria-serif;
+}
+
+.Tecnologia {
+    font-size: 60px;
+    font-family: serif;
+    font-weight: light;
+    font-style: italic;
+}
+
+/*---------------------------*/
+.title_padding {
+    padding-right: 30px;
+}
+.title{
+    font-size: 50px;
+    font-family: serif;
+}
+
+.Luxo2{
+    font-size: 100px;
+    font-family: serif;
+    font-weight: light;
+}
+
+.semLimites {
+    font-size: 35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
+
+
+.footer_text {
+    font-size:14px;
+    color:rgb(187, 187, 187);
+
+}
+

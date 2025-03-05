@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Motors</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/text.css">
+    <link rel="stylesheet" href="../CSS/queries.css">
+</head>
+<body class="body">
+
+<!--mobile-->
+    <div class="d-block d-md-none">
+        <nav class="navbar px-2 bg-black border-bottom border-body" data-bs-theme="dark">
+            <div class="container-fluid m-2">
+                <div class="d-flex">
+                    <img class="me-2" src="../images/prime.svg">
+                    <a class="navbar-brand fw-light fs-5">PRIME MOTORS</a>
+                </div>
+                <form class="d-flex">
+                    <div class="dropdown">
+                        <a class="pe-3" target="_blank" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="../images/planeta.svg" alt="wp icon">
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                          <li><a class="dropdown-item active" href="englishv.html"><img src="../images/brit.svg" alt="bandeira UK"> English</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="../index.html"><img src="../images/bra.svg" alt="bandeira brasil"> Portuguese</a></li>
+                        </ul>
+                      </div>
+                    <a target="_blank" href="https://www.whatsapp.com/">
+                        <img src="../images/logo-whatsapp.svg" alt="wp icon">
+                    </a>
+                </form>
+            </div>
+        </nav>
+    
+        <div class="Background">
+            <div class="container mt-5 ms-5">
+                <p><span class="SuaVidaCom">Your life with</span> <br> <span class="Luxo">Lux</span> <span class="e">&</span> <br><span class="Tecnologia ">Technology</span></p>
+            </div>
+    
+            <div class="conteudo container">
+                <div class="mb-4">
+                    <p class="fs-5 fw-light"><strong>Schedule</strong> your test drive now</p>
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <a href="https://www.whatsapp.com/" id="botao" target="_blank">Schedule</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="divb d-flex justify-content-center">
+            <div><img src="../images/logo.svg" alt="logo"></div>
+        </div>
+    
+        <div class="d-flex justify-content-center align-items-center modelos pb-4">
+            <div class="linha mx-4"></div>
+            <div class="texto">Models</div>
+            <div class="linha mx-4"></div>
+        </div>
+    
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="../images/Jaguar.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="../images/lambo.png" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    
+        <div class="car_info pb-5 d-flex align-items-center flex-column pb-3">
+            <div class="pt-5 pb-4 d-flex justify-content-center">
+                <div>
+                    <img src="../images/Jaguar_Brand.svg">
+                </div>
+            </div>
+    
+            <div class="pb-3">
+                <p><strong>2021</strong> | 1,321 km</p>
+            </div>
+    
+            <div class="pb-3">
+                <p><strong>Available at:</strong> Prime Motors - Curitiba</p>
+            </div>
+    
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <a href="https://www.whatsapp.com/" class="btn btn-light" target="_blank">Support</a>
+                <a href="https://www.whatsapp.com/" class="btn botao2" target="_blank">Information</a>
+            </div>
+        </div>
+    
+        <div class="divb pt-3 d-flex justify-content-center">
+            <div><img src="../images/logo.svg" alt="logo"></div>
+        </div>
+    
+        <div class="d-flex justify-content-center align-items-center modelos pb-4">
+            <div class="linha mx-4"></div>
+            <div class="texto">Search</div>
+            <div class="linha mx-4"></div>
+        </div>
+    
+        <div class="forms px-4 pb-4">
+            <div class="container mb-3">
+                <label for="inputState" class="form-label">Model</label>
+                <select id="inputState" class="form-select">
+                    <option selected>Select</option>
+                    <option>...</option>
+                </select>
+            </div>
+    
+            <div class="container mb-3">
+                <label for="inputState" class="form-label">Year</label>
+                <select id="inputState" class="form-select">
+                    <option selected>Select</option>
+                    <option>...</option>
+                </select>
+            </div>
+    
+            <div class="container">
+                <label for="inputState" class="form-label">Mileage</label>
+                <select id="inputState" class="form-select">
+                    <option selected>Select</option>
+                    <option>...</option>
+                </select>
+            </div>
+        </div>
+    
+        <div class="d-flex justify-content-center align-items-center modelos pb-4 linha_padding">
+            <div class="linha2"></div>
+        </div>
+    
+        <div class="mb-5">
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <a class="btn botao3" href="https://www.whatsapp.com/" target="_blank"><strong>Search</strong></a>
+            </div>
+        </div>
+    
+        <div class="d-flex justify-content-center align-items-center modelos pt-4 pb-1">
+            <div class="linha mx-4"></div>
+            <div class="texto">Contact</div>
+            <div class="linha mx-4"></div>
+        </div>
+    
+        <div class="box">
+            <div class="py-4 text-center">
+                <p>Operating Hours</p>
+            </div>
+    
+            <div class="container pb-3">
+                <div class="row">
+                    <div class="col text-center">
+                        <p>Mon - Fri</p>
+                        <p>Sat - Sun</p>
+                    </div>
+                    <div class="col text-center">
+                        <p>09:00 to 20:00</p>
+                        <p>10:00 to 14:00</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="mb-5">
+            <div class="d-grid gap-2 col-6 mx-auto">
+                <a href="https://www.whatsapp.com/" id="q1_botao" class="btn botao4" target="_blank">+55 (41) 000-000</a>
+            </div>
+        </div>
+        
+        <div class="d-flex justify-content-center align-items-center  pb-4">
+            <div class="linha"></div>
+        </div>
+        
+        <div class="container">
+            <div class="row footer mb-5">
+                <div class="col-6 ps-4">
+                    <p>Prime Motors Vehicles @ 1992 - 2024 all trademarks registered | <br><br> By Marcelowd Design Solutions</p>
+                </div>
+        
+                <div class="col-6">
+                    <div class="d-flex flex-column align-items-center">
+                        <figure class="logo_footer">
+                            <img src="../images/Logo3.svg" alt="logo">
+                        </figure>
+                        <div class="d-flex gap-2 mt-3 align-items-center justify-content-center">
+                            <a target="_blank" href="https://www.whatsapp.com/"><img src="../images/wp2.svg"></a>
+                            <a target="_blank" href="https://x.com/?lang=pt"><img src="../images/X.svg"></a>
+                            <a target="_blank" href="https://www.instagram.com/"><img src="../images/insta.svg"></a>
+        
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+    </div>
+
+<!--laptop / pc -->
+<div class="d-none d-md-block">
+    <nav class="navbar bg-black border-bottom border-body" data-bs-theme="dark">
+        <div class="container-fluid mx-4 py-2 justify-content-between">
+            <div class="d-flex">
+                <img class="me-2" src="../images/prime2.svg">
+                
+            </div>
+            <div class="end me-5 mt-2">
+                <a target="_blank" class="text-light text-decoration-none" href="https://www.google.com/maps/place/Curitiba,+State+of+Paran%C3%A1/@-25.4947146,-49.4546062,11z/data=!3m1!4b1!4m6!3m5!1s0x94dce35351cdb3dd:0x6d2f6ba5bacbe809!8m2!3d-25.4268985!4d-49.2651984!16zL20vMDI4bXBy?entry=ttu&g_ep=EgoyMDI1MDMwMi4wIKXMDSoASAFQAw%3D%3D"><img class="mb-1 me-1" src="../images/pin.svg">Rua Assis Barros 58, Curitiba-PR</a>
+                 
+            </div>
+            <form class="d-flex align-items-center mt-1">
+                <div class="dropdown">
+                    <a class="pe-5 text-light fs-5 text-decoration-none" target="_blank" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img class="mb-1" src="../images/planeta.svg" alt="wp icon">
+                        Language
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-dark">
+                      <li><a class="dropdown-item active" href="pages/englishv.html"><img src="../images/brit.svg" alt="bandeira UK"> English </a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="../index.html"><img src="../images/bra.svg" alt="bandeira Brasil"> Portuguese </a></li>
+                    </ul>
+                  </div>
+                <div class="me-3">
+                    <a target="_blank" href="https://x.com/?lang=pt">
+                        <img src="../images/x2.svg" alt="X icon">
+                    </a>
+                </div>
+                <div class="me-3">
+                    <a target="_blank" href="https://www.whatsapp.com/">
+                        <img src="../images/logo-whatsapp.svg" alt="whatsapp icon">
+                    </a>
+                </div>
+                <div>
+                    <a target="_blank" href="https://www.instagram.com/">
+                        <img src="../images/insta2.svg" alt="instagram icon">
+                    </a>
+                </div>               
+            </form>
+        </div>
+    </nav>
+    <div class="Background2">
+        <div class="container-fluid">
+            <div class="d-flex">
+                <div class="col">
+                    
+                </div>
+        
+                <div class="col-7 Luxo2 text-end pt-5 title_padding">
+                    Lux <span class="semLimites">has no limits</span>
+                </div>
+        
+                <div class="col-4 d-block text-end mt-5 me-4">
+                    <div class="mb-1"><a target="_blank" href="../index.html" class="btn btn-outline-light fs-4 px-2 mb-2">home</a></div>
+                    <div class="mb-1"><a target="_blank" href="" class="btn btn-outline-light fs-3 px-2 mb-2">modelos</a></div>
+                    <div class="mb-1"><a target="_blank" href="https://www.whatsapp.com/" class="btn btn-outline-light fs-2 px-3 mb-2">negotiate</a></div>
+                    <div class="mb-1"><a target="_blank" href="https://www.whatsapp.com/" class="btn btn-outline-light fs-1 px-5">contact</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-light mt-5">
+        <div class="d-flex align-items-center p-5">
+            <div class="col-3">
+                <div class="container mb-3">
+                    <label for="inputState" class="form-label">Configuration</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Select</option>
+                        <option>...</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="container mb-3">
+                    <label for="inputState" class="form-label">Manufacturer</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Select</option>
+                        <option>...</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="container mb-3">
+                    <label for="inputState" class="form-label">Brand</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Select</option>
+                        <option>...</option>
+                    </select>
+                </div>
+            </div>
+            <div class="col-3 ms-4 d-block text-start">
+                <div><label for="inputState" class="form-label">Total: <strong>50</strong></label></div>
+                <div><button class="btn btn-outline-light px-5 text-center mb-3">Search</button></div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="Background3">
+        <div class="container d-flex justify-content-center container_margin">
+            <div class="d-flex bg-black p-4">
+                <div>
+                    <figure>
+                        <img src="../images/Car_img.png" alt="Car Image">
+                    </figure>
+                </div>
+                <div class=" pt-5 text-center align-items-center">
+                    <div><img src="../images/logo.svg" alt="Company Logo"></div>
+                    <div><h1 class="title mt-3">New Releases</h1></div>
+                    <div class="px-5 py-3">
+                        <p class="fs-3 fw-lighter">The newest imported models are waiting you for a <span class="fs-1 fw-bolder fst-italic">test drive</span>.</p>
+                    </div>
+                    <div><a target="_blank" href="https://www.whatsapp.com/" class="btn btn-outline-light fw-bold fs-4 py-2 px-4">See list</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-black">
+        <div class="container py-3 d-flex align-items-center text-center">
+    
+            <div class="col-2 text-start">
+                <img src="../images/logo.svg" alt="Prime Motors Logo">
+            </div>
+    
+            <div class="col-8 text-center pt-3 px-3 footer_text">
+                <p>Prime Motors Vehicles @ 1992 - 2024 all trademarks reserved | By Marcelowd Design Solutions</p>
+            </div>
+    
+            <div class="col-2 d-flex text-end">
+                <div class="me-3">
+                    <a target="_blank" href="https://x.com/?lang=en">
+                        <img src="../images/x2.svg" alt="X icon">
+                    </a>
+                </div>
+                <div class="me-3">
+                    <a target="_blank" href="https://www.whatsapp.com/">
+                        <img src="../images/logo-whatsapp.svg" alt="WhatsApp icon">
+                    </a>
+                </div>
+                <div>
+                    <a target="_blank" href="https://www.instagram.com/">
+                        <img src="../images/insta2.svg" alt="Instagram icon">
+                    </a>
+                </div>       
+            </div>
+            
+        </div>
+    </div>
+
+</div>
+    
+
+
+    <script src="../JS/botao.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

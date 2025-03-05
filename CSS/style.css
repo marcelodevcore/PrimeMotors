@@ -1,0 +1,180 @@
+:root {
+    --color1: #000000;
+    --color2: #444444;
+    --color3: #ffffff;
+    --color4: #242424;
+  }
+
+.body {
+    background-color: var(--color1);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.end {
+  color: #ffffffd5;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.Background {
+    background-image: url('../images/Car_Bg.png'); 
+    background-size: cover;
+    background-position: center;
+    height: 90vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: var(--color3); 
+    
+}
+
+.Background2 {
+  background-image: url('../images/Car_Bg6.png'); 
+  background-size: cover;
+  background-position: center;
+  height: 50vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--color3); 
+  
+}
+.Background3 {
+  background-image: url('../images/Car_Bg7.svg'); 
+  background-size: cover;
+  background-position: center;
+  height: 80vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: var(--color3); 
+  
+}
+
+.container_margin {
+  margin-top:50px;
+  /* margin-left:50px; */
+
+}
+
+
+
+.conteudo {
+    text-align: center;
+    align-items: center;
+    padding-bottom: 120px; 
+}
+
+#botao {
+    
+    background-color:var(--color1); 
+    color:var(--color3);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    border: solid #ffffff52 1px;
+    box-shadow: 0px 0px 10px 5px #ffffff52;
+    cursor: pointer;
+}
+
+
+#botao.clicado {
+  background-color: var(--color3); 
+  color:var(--color1);
+  border: solid #ffffff52 1px;
+  box-shadow: 0px 0px 10px 5px #ffffff52;
+}
+
+
+.modelos {
+    background-color: var(--color1); 
+    color: var(--color3); 
+    font-size: 40px;
+    font-weight: light;
+  }
+  
+  .linha {
+    flex-grow: 1;
+    height: 1px;
+    background-color: var(--color2);
+  }
+
+  .car_info {
+    background-color: var(--color4);
+    color: var(--color3);
+
+  }
+
+  .botao2 {
+    
+    background-color:var(--color1); 
+    color:var(--color3);
+    
+}
+
+.forms {
+    background-color: var(--color1);
+    color:var(--color3)
+}
+
+.linha_padding {
+    padding: 0 140px;
+  }
+  
+.linha2 {
+    flex-grow: 1;
+    height: 2px;
+    background-color: var(--color2);
+  }
+
+  .fundo{
+    background-color: var(--color1);
+  }
+
+  .botao3 {
+    
+    background-color:var(--color2); 
+    color:var(--color3);
+    border:solid #ffffff52 1px;
+    
+    
+}
+  .botao4 {
+    
+    background-color:var(--color2); 
+    color:var(--color3);
+    border:solid #ffffff52 1px;
+    font-size:18px;
+    background-image: url("../images/wp.svg");
+    background-repeat: no-repeat;
+    background-position:left center;
+    padding-left:40px;
+    
+}
+
+.box {
+    margin:20px;
+    background-color:var(--color1);
+    border:solid #ffffff52 1px;
+    color:var(--color3);
+    font-size: 20px;
+    font-weight:100px;
+}
+
+.linha3 {
+    flex-grow: 1;
+    height: 1px;
+    background-color: var(--color2);
+  }
+
+.footer{
+    color:#c2c2c2;
+    font-size: 14px;
+}
+
+.logo_footer {
+    padding:0 10px;
+}
+
+/*-------------Hover---------------*/
+
