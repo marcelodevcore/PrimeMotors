@@ -1,2 +1,2 @@
 # PrimeMotors
-Web page of a car store brand 
+Responsive web page of a car store brand 
